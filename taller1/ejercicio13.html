@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<!--
+    EJERCICIO 13
+    Ficha: 2252471
+    Aprendiz: Nicolas Duarte Moreno
+    Etiquetas body: <h3></h3> <form></form> <br> <input>
+    Navegador: Google Chrome
+-->
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ejercicio 13</title>
+    </head>
+
+    <body>
+
+        <h3>Rellena tu CV</h3>
+        
+        <form action="/php/insertar_cV.php" method="post" enctype="mbltipart/form-data"> 
+
+            Nombre <br/> 
+            
+            <input type="text" name="nombre" yalue="" size="20" maxlength="30"/> 
+            
+            <br/> Apellidos 
+            
+            <br/> 
+
+            <input type="text" name%="apellidos" value="" size="50" maxlength="80"/> 
+
+            <br/> Contraseña
+            
+            <br/> 
+
+            <input type="password" name="contrasena" value="" maxlength="10"/> 
+
+            <br/>
+            DNI 
+            <br/> 
+
+            <input type="text" name%="dni" value="" size="10" maxlength="9"/> 
+            
+            <br/> 
+            Sexo
+            <br/> 
+            <input type="radio" name="sexo" value="hombre" checked="checked"/> 
+            Hombre 
+            <br/> 
+            <input type="radio" name="sexo" value="mujer" /> 
+            Mujer 
+            <br/>
+            <br/> 
+            Incluir mi foto
+            <input type="file" name="foto"/> 
+            <br/>
+            <br/> 
+            <input name="suscribir" type="checkbox" value="suscribir" checked="checked"/>
+            Suscribirme al boletín de novedades 
+            <br/>
+            <br/> 
+            <input type="submit" name="enviar" value="Guardar cambios"/> 
+            <input type="reset" name="limpiar" value="Borrar los datos introducidos" />  
+        </form>  
+    </body>
+
+</html>

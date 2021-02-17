@@ -1,0 +1,17 @@
+@import './prueba1.style.css';
+
+
+.cuerpo{
+    width: 80%;
+    float: left;
+    height: 70vh;
+}
+
+.aside{
+    height: 70vh;
+    background-color: #9b0101;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;    
+}

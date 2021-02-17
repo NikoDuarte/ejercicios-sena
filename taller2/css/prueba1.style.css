@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    height: 200px;
+    background-color: #4896fc;
+    display: static;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header h1{
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.nav{
+    background-color: #f9fc3f;
+    height: 50px;
+    display: static;
+}
+
+.nav h2{
+    text-align: center;
+    font-weight: bold;
+}
+
+.cuerpo{
+    background-color: chocolate;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer{
+    padding: 20px 0px 20px 0px;
+    position: fixed;
+    width: 100%;
+    margin-top: 20px;
+    bottom: 0;
+    background-color: #4896fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer h2{
+    text-align: center;
+}

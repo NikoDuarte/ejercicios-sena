@@ -1,0 +1,10 @@
+/* Estilos base */
+@import './prueba1.style.css';
+
+/* Estilos cambio de propiedad aside */
+@import './prueba2.style.css';
+
+
+.cuerpo{
+    float: right;
+}

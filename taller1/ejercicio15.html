@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<!--
+    EJERCICIO 15
+    Ficha: 2252471
+    Aprendiz: Nicolas Duarte Moreno
+    Etiquetas body: <h3></h3> <form></form> <fleldset></fleldset> <legend></legend> <label></label> <textarea></textarea> <select></select> <option></option> <br>
+    Navegador: Google Chrome
+-->
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ejercicio 15</title>
+    </head>
+
+    <body>
+
+        <h3>Información sobre el producto</h3> 
+        
+        <form action="/php/insertar subasta.php" method="post" enctype="multipart/form-data"> 
+            <fleldset>
+
+                <legend>Datos básicos</legend> 
+                
+                <label for="nombre">
+                    Nombre
+                </label> 
+                
+                <br/> 
+                
+                <input type="text" name="nombre" id="nombre" size="50" maxlength="250"/>
+                 
+                <br/>
+                <br/> 
+                
+                <label for="descripcion">Descripción</label>
+                
+                <br/> 
+                
+                <textarea name="descripcion" id="descripcion" cols="40" rows="5"></textarea>
+                 
+                <br/>
+                <br/> 
+                
+                Foto 
+                
+                <input type="file" name="foto" /> 
+               
+                <br/>
+                <br/> 
+                
+                <input name="contador" type="checkbax" value="si" /> 
+
+                Añadir contador de visitas 
+            </fieldset> 
+            
+            <fieldset> 
+                
+                <legend>
+                    Datos económicos
+                </legend> 
+                
+                <label for="precio"> Precio </label> 
+                
+                <input type="text" size="5" id="precio" name="precio"/> 
+                
+                &euro3; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                
+                <label for="impuestos"> Impuestos </label> 
+                
+                <select id="impuestos" name="impuestos"> 
+                    <option value="4"> 4% </option> 
+                    <option value="7"> 7% </option> 
+                    <option value="16"> 16% </option> 
+                    <option value="25"> 25% </option> 
+                </select> 
+                
+                <br/>
+                <br/> 
+                
+                <label> Promocións </label> 
+                
+                <br/> 
+                
+                <input type="radio" name="promocion" value="ninguno" checked="checked"/>
+                
+                Ninguno
+                
+                <br/> 
+                
+                <input type="radio" name="promocion" value="portes"/> 
+                
+                Transporte gratuito
+                <br/> 
+                
+                <input type="radio" name="promocion" value="descuento"/> 
+                
+                Descuento 5% 
+            </fieldset> 
+        </form>    
+    </body>
+</html>

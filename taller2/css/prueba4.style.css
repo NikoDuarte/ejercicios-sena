@@ -1,0 +1,20 @@
+@import './prueba1.style.css';
+
+@import './prueba2.style.css';
+
+.aside{
+    float: left;
+    width: 150px;
+}
+
+.opcion{
+    width: 102px;
+    float: right;
+    height: 70vh;
+    background-color: #8a8282;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;    
+
+}

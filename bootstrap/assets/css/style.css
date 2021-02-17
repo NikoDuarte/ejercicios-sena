@@ -1,0 +1,56 @@
+.bg{
+    background-color: #282c34;
+}
+
+.bg-list{
+    background-color: rgba(40, 44, 52, 0);
+}
+
+.fondo{
+    /*width: 100%;*/
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(../../../bootstrap/assets/img/fondos/background.jpg);
+    background-size: 100% 100%;
+    /*background-repeat: no-repeat;*/
+    background-attachment: fixed;
+}
+
+.mixBlnd
+{
+	background-blend-mode: screen;
+}
+
+footer {
+    display: block;
+    position: block !important;
+    margin-top: 20px;
+    bottom: 0;
+}
+
+/* Responsive 1390px */
+
+@media (min-width: 1320px) {
+    footer{
+        display: none !important;
+    }
+}
+
+
+/* Responsive 1240px */
+
+@media (min-width: 1240px) {
+}
+
+
+/* Responsive 992px */
+
+@media (max-width: 992px) {
+    header{
+        display: none;
+    }
+    .d-none{
+        display: block !important;
+        height: 90vh !important;
+    }
+}
